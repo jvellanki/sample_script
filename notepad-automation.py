@@ -78,6 +78,7 @@ logger.info("Saved the text in file in: " + file_name)
 
 time.sleep(3)
 """
+# Close the file
 logger.info("Close the file")
 
 notepad_app.Dialog.child_window(title="File", control_type="MenuItem").click_input()
