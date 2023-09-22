@@ -88,9 +88,3 @@ time.sleep(3)
 notepad_app.Dialog.child_window(title="Close Ctrl+W", auto_id="41003", control_type="MenuItem").click_input()
 """
 logger.info("===================End of the test==================")
-
-"""
-time.sleep(3)
-notepad_app.Dialog.child_window(title="File", control_type="MenuItem").click_input()
-notepad_app.Dialog.child_window(title="Close Ctrl+W", auto_id="41003", control_type="MenuItem").click_input()
-"""
