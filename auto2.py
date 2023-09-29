@@ -1,7 +1,7 @@
 import pyautogui
 import subprocess
 import time
-
+print("Hello !")
 # Open Notepad++
 subprocess.Popen(['notepad++.exe'])
 
