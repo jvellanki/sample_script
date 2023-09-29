@@ -1,4 +1,5 @@
 import subprocess
+print("Hello")
 
 # Path to the Windows Calculator executable
 calculator_exe = "calc.exe"
