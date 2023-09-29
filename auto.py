@@ -1,13 +1,13 @@
 from pywinauto.application import Application
 import time
-
+print("Hello. !")
 # Start Notepad
 app = Application().start('notepad.exe')
 time.sleep(1)  # Give some time for Notepad to open
 
 # Select the main Notepad window
 main_window = app.top_window()
-
+  
 # Type some text
 main_window.Edit.type_keys("Hello, pywinauto!")
 
