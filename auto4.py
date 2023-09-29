@@ -1,6 +1,7 @@
 import subprocess
 import time
 import pyautogui
+print("Hello !")
 
 # Path to the Windows Calculator executable
 calculator_exe = "calc.exe"
